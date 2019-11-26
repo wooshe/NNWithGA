@@ -1,0 +1,2192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\InputFiles">
+      <UniqueIdentifier>{1470d85d-22fe-4304-bd47-41d48e682c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\InputFilesNorm">
+      <UniqueIdentifier>{77a7ea0f-f2a5-4eca-8e12-29502b3e5f3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GA\Chromosome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GA\GA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NN\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NN\Neuron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NN\NeuronNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NN\Synapse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NN\Neuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NN\NeuronNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NN\Synapse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GA\Chromosome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GA\CrossT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GA\GA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Files\Configuration.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Files\Input.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Files\ReadMe.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Files\TODO.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\1.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\2.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\3.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\4.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\5.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\6.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\7.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\8.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\9.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\10.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\11.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\12.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\13.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\14.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\15.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\16.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\17.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\18.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\19.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\20.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\21.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\22.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\23.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\24.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\25.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\26.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\27.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\28.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\29.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\30.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\31.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\32.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\33.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\34.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\35.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\36.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\37.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\38.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\39.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\40.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\41.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\42.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\43.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\44.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\45.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\46.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\47.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\48.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\49.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\50.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\51.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\52.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\53.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\54.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\55.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\56.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\57.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\58.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\59.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\60.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\61.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\62.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\63.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\64.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\65.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\66.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\67.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\68.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\69.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\70.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\71.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\72.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\73.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\74.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\75.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\76.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\77.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\78.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\79.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\80.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\81.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\82.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\83.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\84.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\85.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\86.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\87.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\88.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\89.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\90.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\91.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\92.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\93.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\94.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\95.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\96.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\97.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\98.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\99.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\100.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\101.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\102.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\103.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\104.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\105.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\106.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\107.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\108.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\109.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\110.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\111.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\112.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\113.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\114.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\115.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\116.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\117.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\118.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\119.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\120.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\121.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\122.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\123.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\124.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\125.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\126.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\127.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\128.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\129.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\130.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\131.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\132.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\133.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\134.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\135.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\136.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\137.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\138.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\139.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\140.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\141.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\142.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\143.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\144.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\145.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\146.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\147.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\148.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\149.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\150.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\151.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\152.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\153.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\154.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\155.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\156.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\157.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\158.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\159.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\160.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\161.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\162.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\163.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\164.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\165.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\166.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\167.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\168.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\169.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\170.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\171.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\172.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\173.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\174.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\175.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\176.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\177.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\178.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\179.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\180.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\181.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\182.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\183.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\184.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\185.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\186.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\187.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\188.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\189.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\190.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\191.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\192.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\193.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\194.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\195.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\196.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\197.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\198.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\199.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\200.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\201.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\202.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\203.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\204.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\205.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\206.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\207.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\208.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\209.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\210.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\211.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\212.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\213.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\214.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\215.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\216.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\217.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\218.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\219.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\220.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\221.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\222.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\223.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\224.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\225.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\226.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\227.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\228.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\229.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\230.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\231.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\232.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\233.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\234.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\235.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\236.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\237.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\238.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\239.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\240.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\241.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\242.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\243.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\244.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\245.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\246.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\247.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\248.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\249.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\250.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\251.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\252.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\253.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\254.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\255.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\256.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\257.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\258.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\259.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\260.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\261.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\262.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\263.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\264.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\265.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\266.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\267.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\268.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\269.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\270.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\271.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\272.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\273.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\274.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\275.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\276.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\277.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\278.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\279.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\280.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\281.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\282.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\283.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\284.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\285.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\286.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\287.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\288.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\289.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\290.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\291.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\292.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\293.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\294.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\295.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\296.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\297.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\298.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\299.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\300.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\301.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\302.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\303.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\304.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\305.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\306.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\307.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\308.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\309.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\310.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\311.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\312.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\313.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\314.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\315.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\316.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\317.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\318.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\319.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\320.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\321.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\322.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\323.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\324.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\325.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\326.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\327.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\328.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\329.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\330.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\331.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\332.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\333.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\334.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\335.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\336.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\337.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\338.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\339.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\340.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\341.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\342.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\343.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\344.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\345.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\346.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\347.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\348.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\349.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\350.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\351.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\352.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\353.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFiles\354.txt">
+      <Filter>Resource Files\InputFiles</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\1_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\2_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\3_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\4_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\5_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\6_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\7_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\8_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\9_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\10_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\11_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\12_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\13_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\14_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\15_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\16_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\17_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\18_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\19_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\20_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\21_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\22_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\23_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\24_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\25_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\26_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\27_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\28_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\29_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\30_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\31_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\32_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\33_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\34_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\35_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\36_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\37_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\38_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\39_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\40_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\41_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\42_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\43_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\44_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\45_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\46_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\47_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\48_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\49_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\50_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\51_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\52_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\53_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\54_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\55_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\56_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\57_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\58_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\59_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\60_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\61_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\62_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\63_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\64_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\65_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\66_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\67_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\68_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\69_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\70_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\71_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\72_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\73_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\74_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\75_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\76_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\77_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\78_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\79_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\80_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\81_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\82_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\83_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\84_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\85_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\86_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\87_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\88_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\89_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\90_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\91_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\92_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\93_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\94_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\95_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\96_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\97_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\98_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\99_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\100_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\101_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\102_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\103_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\104_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\105_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\106_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\107_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\108_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\109_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\110_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\111_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\112_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\113_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\114_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\115_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\116_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\117_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\118_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\119_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\120_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\121_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\122_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\123_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\124_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\125_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\126_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\127_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\128_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\129_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\130_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\131_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\132_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\133_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\134_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\135_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\136_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\137_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\138_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\139_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\140_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\141_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\142_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\143_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\144_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\145_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\146_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\147_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\148_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\149_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\150_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\151_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\152_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\153_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\154_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\155_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\156_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\157_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\158_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\159_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\160_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\161_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\162_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\163_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\164_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\165_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\166_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\167_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\168_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\169_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\170_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\171_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\172_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\173_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\174_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\175_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\176_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\177_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\178_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\179_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\180_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\181_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\182_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\183_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\184_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\185_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\186_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\187_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\188_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\189_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\190_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\191_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\192_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\193_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\194_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\195_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\196_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\197_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\198_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\199_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\200_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\201_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\202_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\203_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\204_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\205_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\206_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\207_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\208_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\209_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\210_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\211_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\212_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\213_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\214_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\215_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\216_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\217_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\218_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\219_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\220_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\221_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\222_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\223_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\224_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\225_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\226_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\227_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\228_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\229_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\230_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\231_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\232_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\233_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\234_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\235_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\236_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\237_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\238_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\239_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\240_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\241_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\242_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\243_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\244_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\245_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\246_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\247_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\248_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\249_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\250_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\251_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\252_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\253_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\254_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\255_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\256_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\257_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\258_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\259_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\260_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\261_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\262_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\263_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\264_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\265_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\266_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\267_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\268_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\269_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\270_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\271_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\272_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\273_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\274_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\275_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\276_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\277_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\278_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\279_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\280_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\281_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\282_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\283_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\284_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\285_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\286_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\287_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\288_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\289_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\290_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\291_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\292_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\293_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\294_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\295_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\296_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\297_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\298_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\299_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\300_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\301_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\302_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\303_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\304_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\305_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\306_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\307_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\308_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\309_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\310_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\311_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\312_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\313_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\314_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\315_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\316_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\317_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\318_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\319_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\320_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\321_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\322_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\323_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\324_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\325_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\326_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\327_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\328_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\329_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\330_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\331_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\332_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\333_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\334_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\335_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\336_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\337_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\338_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\339_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\340_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\341_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\342_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\343_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\344_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\345_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\346_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\347_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\348_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+    <Text Include="Files\InputFilesNorm\349_norm.txt">
+      <Filter>Resource Files\InputFilesNorm</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

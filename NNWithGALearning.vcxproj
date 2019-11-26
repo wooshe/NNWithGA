@@ -1,0 +1,811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1C73833-ECC8-421E-B99B-42FD8B90E059}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NNWithGALearning</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="GA\Chromosome.h" />
+    <ClInclude Include="GA\GA.h" />
+    <ClInclude Include="Headers.h" />
+    <ClInclude Include="NN\Input.h" />
+    <ClInclude Include="NN\Neuron.h" />
+    <ClInclude Include="NN\NeuronNet.h" />
+    <ClInclude Include="NN\Synapse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GA\Chromosome.cpp" />
+    <ClCompile Include="GA\CrossT.cpp" />
+    <ClCompile Include="GA\GA.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NN\Neuron.cpp" />
+    <ClCompile Include="NN\NeuronNet.cpp" />
+    <ClCompile Include="NN\Synapse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Files\Configuration.txt" />
+    <Text Include="Files\Input.txt" />
+    <Text Include="Files\InputFilesNorm\100_norm.txt" />
+    <Text Include="Files\InputFilesNorm\101_norm.txt" />
+    <Text Include="Files\InputFilesNorm\102_norm.txt" />
+    <Text Include="Files\InputFilesNorm\103_norm.txt" />
+    <Text Include="Files\InputFilesNorm\104_norm.txt" />
+    <Text Include="Files\InputFilesNorm\105_norm.txt" />
+    <Text Include="Files\InputFilesNorm\106_norm.txt" />
+    <Text Include="Files\InputFilesNorm\107_norm.txt" />
+    <Text Include="Files\InputFilesNorm\108_norm.txt" />
+    <Text Include="Files\InputFilesNorm\109_norm.txt" />
+    <Text Include="Files\InputFilesNorm\10_norm.txt" />
+    <Text Include="Files\InputFilesNorm\110_norm.txt" />
+    <Text Include="Files\InputFilesNorm\111_norm.txt" />
+    <Text Include="Files\InputFilesNorm\112_norm.txt" />
+    <Text Include="Files\InputFilesNorm\113_norm.txt" />
+    <Text Include="Files\InputFilesNorm\114_norm.txt" />
+    <Text Include="Files\InputFilesNorm\115_norm.txt" />
+    <Text Include="Files\InputFilesNorm\116_norm.txt" />
+    <Text Include="Files\InputFilesNorm\117_norm.txt" />
+    <Text Include="Files\InputFilesNorm\118_norm.txt" />
+    <Text Include="Files\InputFilesNorm\119_norm.txt" />
+    <Text Include="Files\InputFilesNorm\11_norm.txt" />
+    <Text Include="Files\InputFilesNorm\120_norm.txt" />
+    <Text Include="Files\InputFilesNorm\121_norm.txt" />
+    <Text Include="Files\InputFilesNorm\122_norm.txt" />
+    <Text Include="Files\InputFilesNorm\123_norm.txt" />
+    <Text Include="Files\InputFilesNorm\124_norm.txt" />
+    <Text Include="Files\InputFilesNorm\125_norm.txt" />
+    <Text Include="Files\InputFilesNorm\126_norm.txt" />
+    <Text Include="Files\InputFilesNorm\127_norm.txt" />
+    <Text Include="Files\InputFilesNorm\128_norm.txt" />
+    <Text Include="Files\InputFilesNorm\129_norm.txt" />
+    <Text Include="Files\InputFilesNorm\12_norm.txt" />
+    <Text Include="Files\InputFilesNorm\130_norm.txt" />
+    <Text Include="Files\InputFilesNorm\131_norm.txt" />
+    <Text Include="Files\InputFilesNorm\132_norm.txt" />
+    <Text Include="Files\InputFilesNorm\133_norm.txt" />
+    <Text Include="Files\InputFilesNorm\134_norm.txt" />
+    <Text Include="Files\InputFilesNorm\135_norm.txt" />
+    <Text Include="Files\InputFilesNorm\136_norm.txt" />
+    <Text Include="Files\InputFilesNorm\137_norm.txt" />
+    <Text Include="Files\InputFilesNorm\138_norm.txt" />
+    <Text Include="Files\InputFilesNorm\139_norm.txt" />
+    <Text Include="Files\InputFilesNorm\13_norm.txt" />
+    <Text Include="Files\InputFilesNorm\140_norm.txt" />
+    <Text Include="Files\InputFilesNorm\141_norm.txt" />
+    <Text Include="Files\InputFilesNorm\142_norm.txt" />
+    <Text Include="Files\InputFilesNorm\143_norm.txt" />
+    <Text Include="Files\InputFilesNorm\144_norm.txt" />
+    <Text Include="Files\InputFilesNorm\145_norm.txt" />
+    <Text Include="Files\InputFilesNorm\146_norm.txt" />
+    <Text Include="Files\InputFilesNorm\147_norm.txt" />
+    <Text Include="Files\InputFilesNorm\148_norm.txt" />
+    <Text Include="Files\InputFilesNorm\149_norm.txt" />
+    <Text Include="Files\InputFilesNorm\14_norm.txt" />
+    <Text Include="Files\InputFilesNorm\150_norm.txt" />
+    <Text Include="Files\InputFilesNorm\151_norm.txt" />
+    <Text Include="Files\InputFilesNorm\152_norm.txt" />
+    <Text Include="Files\InputFilesNorm\153_norm.txt" />
+    <Text Include="Files\InputFilesNorm\154_norm.txt" />
+    <Text Include="Files\InputFilesNorm\155_norm.txt" />
+    <Text Include="Files\InputFilesNorm\156_norm.txt" />
+    <Text Include="Files\InputFilesNorm\157_norm.txt" />
+    <Text Include="Files\InputFilesNorm\158_norm.txt" />
+    <Text Include="Files\InputFilesNorm\159_norm.txt" />
+    <Text Include="Files\InputFilesNorm\15_norm.txt" />
+    <Text Include="Files\InputFilesNorm\160_norm.txt" />
+    <Text Include="Files\InputFilesNorm\161_norm.txt" />
+    <Text Include="Files\InputFilesNorm\162_norm.txt" />
+    <Text Include="Files\InputFilesNorm\163_norm.txt" />
+    <Text Include="Files\InputFilesNorm\164_norm.txt" />
+    <Text Include="Files\InputFilesNorm\165_norm.txt" />
+    <Text Include="Files\InputFilesNorm\166_norm.txt" />
+    <Text Include="Files\InputFilesNorm\167_norm.txt" />
+    <Text Include="Files\InputFilesNorm\168_norm.txt" />
+    <Text Include="Files\InputFilesNorm\169_norm.txt" />
+    <Text Include="Files\InputFilesNorm\16_norm.txt" />
+    <Text Include="Files\InputFilesNorm\170_norm.txt" />
+    <Text Include="Files\InputFilesNorm\171_norm.txt" />
+    <Text Include="Files\InputFilesNorm\172_norm.txt" />
+    <Text Include="Files\InputFilesNorm\173_norm.txt" />
+    <Text Include="Files\InputFilesNorm\174_norm.txt" />
+    <Text Include="Files\InputFilesNorm\175_norm.txt" />
+    <Text Include="Files\InputFilesNorm\176_norm.txt" />
+    <Text Include="Files\InputFilesNorm\177_norm.txt" />
+    <Text Include="Files\InputFilesNorm\178_norm.txt" />
+    <Text Include="Files\InputFilesNorm\179_norm.txt" />
+    <Text Include="Files\InputFilesNorm\17_norm.txt" />
+    <Text Include="Files\InputFilesNorm\180_norm.txt" />
+    <Text Include="Files\InputFilesNorm\181_norm.txt" />
+    <Text Include="Files\InputFilesNorm\182_norm.txt" />
+    <Text Include="Files\InputFilesNorm\183_norm.txt" />
+    <Text Include="Files\InputFilesNorm\184_norm.txt" />
+    <Text Include="Files\InputFilesNorm\185_norm.txt" />
+    <Text Include="Files\InputFilesNorm\186_norm.txt" />
+    <Text Include="Files\InputFilesNorm\187_norm.txt" />
+    <Text Include="Files\InputFilesNorm\188_norm.txt" />
+    <Text Include="Files\InputFilesNorm\189_norm.txt" />
+    <Text Include="Files\InputFilesNorm\18_norm.txt" />
+    <Text Include="Files\InputFilesNorm\190_norm.txt" />
+    <Text Include="Files\InputFilesNorm\191_norm.txt" />
+    <Text Include="Files\InputFilesNorm\192_norm.txt" />
+    <Text Include="Files\InputFilesNorm\193_norm.txt" />
+    <Text Include="Files\InputFilesNorm\194_norm.txt" />
+    <Text Include="Files\InputFilesNorm\195_norm.txt" />
+    <Text Include="Files\InputFilesNorm\196_norm.txt" />
+    <Text Include="Files\InputFilesNorm\197_norm.txt" />
+    <Text Include="Files\InputFilesNorm\198_norm.txt" />
+    <Text Include="Files\InputFilesNorm\199_norm.txt" />
+    <Text Include="Files\InputFilesNorm\19_norm.txt" />
+    <Text Include="Files\InputFilesNorm\1_norm.txt" />
+    <Text Include="Files\InputFilesNorm\200_norm.txt" />
+    <Text Include="Files\InputFilesNorm\201_norm.txt" />
+    <Text Include="Files\InputFilesNorm\202_norm.txt" />
+    <Text Include="Files\InputFilesNorm\203_norm.txt" />
+    <Text Include="Files\InputFilesNorm\204_norm.txt" />
+    <Text Include="Files\InputFilesNorm\205_norm.txt" />
+    <Text Include="Files\InputFilesNorm\206_norm.txt" />
+    <Text Include="Files\InputFilesNorm\207_norm.txt" />
+    <Text Include="Files\InputFilesNorm\208_norm.txt" />
+    <Text Include="Files\InputFilesNorm\209_norm.txt" />
+    <Text Include="Files\InputFilesNorm\20_norm.txt" />
+    <Text Include="Files\InputFilesNorm\210_norm.txt" />
+    <Text Include="Files\InputFilesNorm\211_norm.txt" />
+    <Text Include="Files\InputFilesNorm\212_norm.txt" />
+    <Text Include="Files\InputFilesNorm\213_norm.txt" />
+    <Text Include="Files\InputFilesNorm\214_norm.txt" />
+    <Text Include="Files\InputFilesNorm\215_norm.txt" />
+    <Text Include="Files\InputFilesNorm\216_norm.txt" />
+    <Text Include="Files\InputFilesNorm\217_norm.txt" />
+    <Text Include="Files\InputFilesNorm\218_norm.txt" />
+    <Text Include="Files\InputFilesNorm\219_norm.txt" />
+    <Text Include="Files\InputFilesNorm\21_norm.txt" />
+    <Text Include="Files\InputFilesNorm\220_norm.txt" />
+    <Text Include="Files\InputFilesNorm\221_norm.txt" />
+    <Text Include="Files\InputFilesNorm\222_norm.txt" />
+    <Text Include="Files\InputFilesNorm\223_norm.txt" />
+    <Text Include="Files\InputFilesNorm\224_norm.txt" />
+    <Text Include="Files\InputFilesNorm\225_norm.txt" />
+    <Text Include="Files\InputFilesNorm\226_norm.txt" />
+    <Text Include="Files\InputFilesNorm\227_norm.txt" />
+    <Text Include="Files\InputFilesNorm\228_norm.txt" />
+    <Text Include="Files\InputFilesNorm\229_norm.txt" />
+    <Text Include="Files\InputFilesNorm\22_norm.txt" />
+    <Text Include="Files\InputFilesNorm\230_norm.txt" />
+    <Text Include="Files\InputFilesNorm\231_norm.txt" />
+    <Text Include="Files\InputFilesNorm\232_norm.txt" />
+    <Text Include="Files\InputFilesNorm\233_norm.txt" />
+    <Text Include="Files\InputFilesNorm\234_norm.txt" />
+    <Text Include="Files\InputFilesNorm\235_norm.txt" />
+    <Text Include="Files\InputFilesNorm\236_norm.txt" />
+    <Text Include="Files\InputFilesNorm\237_norm.txt" />
+    <Text Include="Files\InputFilesNorm\238_norm.txt" />
+    <Text Include="Files\InputFilesNorm\239_norm.txt" />
+    <Text Include="Files\InputFilesNorm\23_norm.txt" />
+    <Text Include="Files\InputFilesNorm\240_norm.txt" />
+    <Text Include="Files\InputFilesNorm\241_norm.txt" />
+    <Text Include="Files\InputFilesNorm\242_norm.txt" />
+    <Text Include="Files\InputFilesNorm\243_norm.txt" />
+    <Text Include="Files\InputFilesNorm\244_norm.txt" />
+    <Text Include="Files\InputFilesNorm\245_norm.txt" />
+    <Text Include="Files\InputFilesNorm\246_norm.txt" />
+    <Text Include="Files\InputFilesNorm\247_norm.txt" />
+    <Text Include="Files\InputFilesNorm\248_norm.txt" />
+    <Text Include="Files\InputFilesNorm\249_norm.txt" />
+    <Text Include="Files\InputFilesNorm\24_norm.txt" />
+    <Text Include="Files\InputFilesNorm\250_norm.txt" />
+    <Text Include="Files\InputFilesNorm\251_norm.txt" />
+    <Text Include="Files\InputFilesNorm\252_norm.txt" />
+    <Text Include="Files\InputFilesNorm\253_norm.txt" />
+    <Text Include="Files\InputFilesNorm\254_norm.txt" />
+    <Text Include="Files\InputFilesNorm\255_norm.txt" />
+    <Text Include="Files\InputFilesNorm\256_norm.txt" />
+    <Text Include="Files\InputFilesNorm\257_norm.txt" />
+    <Text Include="Files\InputFilesNorm\258_norm.txt" />
+    <Text Include="Files\InputFilesNorm\259_norm.txt" />
+    <Text Include="Files\InputFilesNorm\25_norm.txt" />
+    <Text Include="Files\InputFilesNorm\260_norm.txt" />
+    <Text Include="Files\InputFilesNorm\261_norm.txt" />
+    <Text Include="Files\InputFilesNorm\262_norm.txt" />
+    <Text Include="Files\InputFilesNorm\263_norm.txt" />
+    <Text Include="Files\InputFilesNorm\264_norm.txt" />
+    <Text Include="Files\InputFilesNorm\265_norm.txt" />
+    <Text Include="Files\InputFilesNorm\266_norm.txt" />
+    <Text Include="Files\InputFilesNorm\267_norm.txt" />
+    <Text Include="Files\InputFilesNorm\268_norm.txt" />
+    <Text Include="Files\InputFilesNorm\269_norm.txt" />
+    <Text Include="Files\InputFilesNorm\26_norm.txt" />
+    <Text Include="Files\InputFilesNorm\270_norm.txt" />
+    <Text Include="Files\InputFilesNorm\271_norm.txt" />
+    <Text Include="Files\InputFilesNorm\272_norm.txt" />
+    <Text Include="Files\InputFilesNorm\273_norm.txt" />
+    <Text Include="Files\InputFilesNorm\274_norm.txt" />
+    <Text Include="Files\InputFilesNorm\275_norm.txt" />
+    <Text Include="Files\InputFilesNorm\276_norm.txt" />
+    <Text Include="Files\InputFilesNorm\277_norm.txt" />
+    <Text Include="Files\InputFilesNorm\278_norm.txt" />
+    <Text Include="Files\InputFilesNorm\279_norm.txt" />
+    <Text Include="Files\InputFilesNorm\27_norm.txt" />
+    <Text Include="Files\InputFilesNorm\280_norm.txt" />
+    <Text Include="Files\InputFilesNorm\281_norm.txt" />
+    <Text Include="Files\InputFilesNorm\282_norm.txt" />
+    <Text Include="Files\InputFilesNorm\283_norm.txt" />
+    <Text Include="Files\InputFilesNorm\284_norm.txt" />
+    <Text Include="Files\InputFilesNorm\285_norm.txt" />
+    <Text Include="Files\InputFilesNorm\286_norm.txt" />
+    <Text Include="Files\InputFilesNorm\287_norm.txt" />
+    <Text Include="Files\InputFilesNorm\288_norm.txt" />
+    <Text Include="Files\InputFilesNorm\289_norm.txt" />
+    <Text Include="Files\InputFilesNorm\28_norm.txt" />
+    <Text Include="Files\InputFilesNorm\290_norm.txt" />
+    <Text Include="Files\InputFilesNorm\291_norm.txt" />
+    <Text Include="Files\InputFilesNorm\292_norm.txt" />
+    <Text Include="Files\InputFilesNorm\293_norm.txt" />
+    <Text Include="Files\InputFilesNorm\294_norm.txt" />
+    <Text Include="Files\InputFilesNorm\295_norm.txt" />
+    <Text Include="Files\InputFilesNorm\296_norm.txt" />
+    <Text Include="Files\InputFilesNorm\297_norm.txt" />
+    <Text Include="Files\InputFilesNorm\298_norm.txt" />
+    <Text Include="Files\InputFilesNorm\299_norm.txt" />
+    <Text Include="Files\InputFilesNorm\29_norm.txt" />
+    <Text Include="Files\InputFilesNorm\2_norm.txt" />
+    <Text Include="Files\InputFilesNorm\300_norm.txt" />
+    <Text Include="Files\InputFilesNorm\301_norm.txt" />
+    <Text Include="Files\InputFilesNorm\302_norm.txt" />
+    <Text Include="Files\InputFilesNorm\303_norm.txt" />
+    <Text Include="Files\InputFilesNorm\304_norm.txt" />
+    <Text Include="Files\InputFilesNorm\305_norm.txt" />
+    <Text Include="Files\InputFilesNorm\306_norm.txt" />
+    <Text Include="Files\InputFilesNorm\307_norm.txt" />
+    <Text Include="Files\InputFilesNorm\308_norm.txt" />
+    <Text Include="Files\InputFilesNorm\309_norm.txt" />
+    <Text Include="Files\InputFilesNorm\30_norm.txt" />
+    <Text Include="Files\InputFilesNorm\310_norm.txt" />
+    <Text Include="Files\InputFilesNorm\311_norm.txt" />
+    <Text Include="Files\InputFilesNorm\312_norm.txt" />
+    <Text Include="Files\InputFilesNorm\313_norm.txt" />
+    <Text Include="Files\InputFilesNorm\314_norm.txt" />
+    <Text Include="Files\InputFilesNorm\315_norm.txt" />
+    <Text Include="Files\InputFilesNorm\316_norm.txt" />
+    <Text Include="Files\InputFilesNorm\317_norm.txt" />
+    <Text Include="Files\InputFilesNorm\318_norm.txt" />
+    <Text Include="Files\InputFilesNorm\319_norm.txt" />
+    <Text Include="Files\InputFilesNorm\31_norm.txt" />
+    <Text Include="Files\InputFilesNorm\320_norm.txt" />
+    <Text Include="Files\InputFilesNorm\321_norm.txt" />
+    <Text Include="Files\InputFilesNorm\322_norm.txt" />
+    <Text Include="Files\InputFilesNorm\323_norm.txt" />
+    <Text Include="Files\InputFilesNorm\324_norm.txt" />
+    <Text Include="Files\InputFilesNorm\325_norm.txt" />
+    <Text Include="Files\InputFilesNorm\326_norm.txt" />
+    <Text Include="Files\InputFilesNorm\327_norm.txt" />
+    <Text Include="Files\InputFilesNorm\328_norm.txt" />
+    <Text Include="Files\InputFilesNorm\329_norm.txt" />
+    <Text Include="Files\InputFilesNorm\32_norm.txt" />
+    <Text Include="Files\InputFilesNorm\330_norm.txt" />
+    <Text Include="Files\InputFilesNorm\331_norm.txt" />
+    <Text Include="Files\InputFilesNorm\332_norm.txt" />
+    <Text Include="Files\InputFilesNorm\333_norm.txt" />
+    <Text Include="Files\InputFilesNorm\334_norm.txt" />
+    <Text Include="Files\InputFilesNorm\335_norm.txt" />
+    <Text Include="Files\InputFilesNorm\336_norm.txt" />
+    <Text Include="Files\InputFilesNorm\337_norm.txt" />
+    <Text Include="Files\InputFilesNorm\338_norm.txt" />
+    <Text Include="Files\InputFilesNorm\339_norm.txt" />
+    <Text Include="Files\InputFilesNorm\33_norm.txt" />
+    <Text Include="Files\InputFilesNorm\340_norm.txt" />
+    <Text Include="Files\InputFilesNorm\341_norm.txt" />
+    <Text Include="Files\InputFilesNorm\342_norm.txt" />
+    <Text Include="Files\InputFilesNorm\343_norm.txt" />
+    <Text Include="Files\InputFilesNorm\344_norm.txt" />
+    <Text Include="Files\InputFilesNorm\345_norm.txt" />
+    <Text Include="Files\InputFilesNorm\346_norm.txt" />
+    <Text Include="Files\InputFilesNorm\347_norm.txt" />
+    <Text Include="Files\InputFilesNorm\348_norm.txt" />
+    <Text Include="Files\InputFilesNorm\349_norm.txt" />
+    <Text Include="Files\InputFilesNorm\34_norm.txt" />
+    <Text Include="Files\InputFilesNorm\35_norm.txt" />
+    <Text Include="Files\InputFilesNorm\36_norm.txt" />
+    <Text Include="Files\InputFilesNorm\37_norm.txt" />
+    <Text Include="Files\InputFilesNorm\38_norm.txt" />
+    <Text Include="Files\InputFilesNorm\39_norm.txt" />
+    <Text Include="Files\InputFilesNorm\3_norm.txt" />
+    <Text Include="Files\InputFilesNorm\40_norm.txt" />
+    <Text Include="Files\InputFilesNorm\41_norm.txt" />
+    <Text Include="Files\InputFilesNorm\42_norm.txt" />
+    <Text Include="Files\InputFilesNorm\43_norm.txt" />
+    <Text Include="Files\InputFilesNorm\44_norm.txt" />
+    <Text Include="Files\InputFilesNorm\45_norm.txt" />
+    <Text Include="Files\InputFilesNorm\46_norm.txt" />
+    <Text Include="Files\InputFilesNorm\47_norm.txt" />
+    <Text Include="Files\InputFilesNorm\48_norm.txt" />
+    <Text Include="Files\InputFilesNorm\49_norm.txt" />
+    <Text Include="Files\InputFilesNorm\4_norm.txt" />
+    <Text Include="Files\InputFilesNorm\50_norm.txt" />
+    <Text Include="Files\InputFilesNorm\51_norm.txt" />
+    <Text Include="Files\InputFilesNorm\52_norm.txt" />
+    <Text Include="Files\InputFilesNorm\53_norm.txt" />
+    <Text Include="Files\InputFilesNorm\54_norm.txt" />
+    <Text Include="Files\InputFilesNorm\55_norm.txt" />
+    <Text Include="Files\InputFilesNorm\56_norm.txt" />
+    <Text Include="Files\InputFilesNorm\57_norm.txt" />
+    <Text Include="Files\InputFilesNorm\58_norm.txt" />
+    <Text Include="Files\InputFilesNorm\59_norm.txt" />
+    <Text Include="Files\InputFilesNorm\5_norm.txt" />
+    <Text Include="Files\InputFilesNorm\60_norm.txt" />
+    <Text Include="Files\InputFilesNorm\61_norm.txt" />
+    <Text Include="Files\InputFilesNorm\62_norm.txt" />
+    <Text Include="Files\InputFilesNorm\63_norm.txt" />
+    <Text Include="Files\InputFilesNorm\64_norm.txt" />
+    <Text Include="Files\InputFilesNorm\65_norm.txt" />
+    <Text Include="Files\InputFilesNorm\66_norm.txt" />
+    <Text Include="Files\InputFilesNorm\67_norm.txt" />
+    <Text Include="Files\InputFilesNorm\68_norm.txt" />
+    <Text Include="Files\InputFilesNorm\69_norm.txt" />
+    <Text Include="Files\InputFilesNorm\6_norm.txt" />
+    <Text Include="Files\InputFilesNorm\70_norm.txt" />
+    <Text Include="Files\InputFilesNorm\71_norm.txt" />
+    <Text Include="Files\InputFilesNorm\72_norm.txt" />
+    <Text Include="Files\InputFilesNorm\73_norm.txt" />
+    <Text Include="Files\InputFilesNorm\74_norm.txt" />
+    <Text Include="Files\InputFilesNorm\75_norm.txt" />
+    <Text Include="Files\InputFilesNorm\76_norm.txt" />
+    <Text Include="Files\InputFilesNorm\77_norm.txt" />
+    <Text Include="Files\InputFilesNorm\78_norm.txt" />
+    <Text Include="Files\InputFilesNorm\79_norm.txt" />
+    <Text Include="Files\InputFilesNorm\7_norm.txt" />
+    <Text Include="Files\InputFilesNorm\80_norm.txt" />
+    <Text Include="Files\InputFilesNorm\81_norm.txt" />
+    <Text Include="Files\InputFilesNorm\82_norm.txt" />
+    <Text Include="Files\InputFilesNorm\83_norm.txt" />
+    <Text Include="Files\InputFilesNorm\84_norm.txt" />
+    <Text Include="Files\InputFilesNorm\85_norm.txt" />
+    <Text Include="Files\InputFilesNorm\86_norm.txt" />
+    <Text Include="Files\InputFilesNorm\87_norm.txt" />
+    <Text Include="Files\InputFilesNorm\88_norm.txt" />
+    <Text Include="Files\InputFilesNorm\89_norm.txt" />
+    <Text Include="Files\InputFilesNorm\8_norm.txt" />
+    <Text Include="Files\InputFilesNorm\90_norm.txt" />
+    <Text Include="Files\InputFilesNorm\91_norm.txt" />
+    <Text Include="Files\InputFilesNorm\92_norm.txt" />
+    <Text Include="Files\InputFilesNorm\93_norm.txt" />
+    <Text Include="Files\InputFilesNorm\94_norm.txt" />
+    <Text Include="Files\InputFilesNorm\95_norm.txt" />
+    <Text Include="Files\InputFilesNorm\96_norm.txt" />
+    <Text Include="Files\InputFilesNorm\97_norm.txt" />
+    <Text Include="Files\InputFilesNorm\98_norm.txt" />
+    <Text Include="Files\InputFilesNorm\99_norm.txt" />
+    <Text Include="Files\InputFilesNorm\9_norm.txt" />
+    <Text Include="Files\InputFiles\1.txt" />
+    <Text Include="Files\InputFiles\10.txt" />
+    <Text Include="Files\InputFiles\100.txt" />
+    <Text Include="Files\InputFiles\101.txt" />
+    <Text Include="Files\InputFiles\102.txt" />
+    <Text Include="Files\InputFiles\103.txt" />
+    <Text Include="Files\InputFiles\104.txt" />
+    <Text Include="Files\InputFiles\105.txt" />
+    <Text Include="Files\InputFiles\106.txt" />
+    <Text Include="Files\InputFiles\107.txt" />
+    <Text Include="Files\InputFiles\108.txt" />
+    <Text Include="Files\InputFiles\109.txt" />
+    <Text Include="Files\InputFiles\11.txt" />
+    <Text Include="Files\InputFiles\110.txt" />
+    <Text Include="Files\InputFiles\111.txt" />
+    <Text Include="Files\InputFiles\112.txt" />
+    <Text Include="Files\InputFiles\113.txt" />
+    <Text Include="Files\InputFiles\114.txt" />
+    <Text Include="Files\InputFiles\115.txt" />
+    <Text Include="Files\InputFiles\116.txt" />
+    <Text Include="Files\InputFiles\117.txt" />
+    <Text Include="Files\InputFiles\118.txt" />
+    <Text Include="Files\InputFiles\119.txt" />
+    <Text Include="Files\InputFiles\12.txt" />
+    <Text Include="Files\InputFiles\120.txt" />
+    <Text Include="Files\InputFiles\121.txt" />
+    <Text Include="Files\InputFiles\122.txt" />
+    <Text Include="Files\InputFiles\123.txt" />
+    <Text Include="Files\InputFiles\124.txt" />
+    <Text Include="Files\InputFiles\125.txt" />
+    <Text Include="Files\InputFiles\126.txt" />
+    <Text Include="Files\InputFiles\127.txt" />
+    <Text Include="Files\InputFiles\128.txt" />
+    <Text Include="Files\InputFiles\129.txt" />
+    <Text Include="Files\InputFiles\13.txt" />
+    <Text Include="Files\InputFiles\130.txt" />
+    <Text Include="Files\InputFiles\131.txt" />
+    <Text Include="Files\InputFiles\132.txt" />
+    <Text Include="Files\InputFiles\133.txt" />
+    <Text Include="Files\InputFiles\134.txt" />
+    <Text Include="Files\InputFiles\135.txt" />
+    <Text Include="Files\InputFiles\136.txt" />
+    <Text Include="Files\InputFiles\137.txt" />
+    <Text Include="Files\InputFiles\138.txt" />
+    <Text Include="Files\InputFiles\139.txt" />
+    <Text Include="Files\InputFiles\14.txt" />
+    <Text Include="Files\InputFiles\140.txt" />
+    <Text Include="Files\InputFiles\141.txt" />
+    <Text Include="Files\InputFiles\142.txt" />
+    <Text Include="Files\InputFiles\143.txt" />
+    <Text Include="Files\InputFiles\144.txt" />
+    <Text Include="Files\InputFiles\145.txt" />
+    <Text Include="Files\InputFiles\146.txt" />
+    <Text Include="Files\InputFiles\147.txt" />
+    <Text Include="Files\InputFiles\148.txt" />
+    <Text Include="Files\InputFiles\149.txt" />
+    <Text Include="Files\InputFiles\15.txt" />
+    <Text Include="Files\InputFiles\150.txt" />
+    <Text Include="Files\InputFiles\151.txt" />
+    <Text Include="Files\InputFiles\152.txt" />
+    <Text Include="Files\InputFiles\153.txt" />
+    <Text Include="Files\InputFiles\154.txt" />
+    <Text Include="Files\InputFiles\155.txt" />
+    <Text Include="Files\InputFiles\156.txt" />
+    <Text Include="Files\InputFiles\157.txt" />
+    <Text Include="Files\InputFiles\158.txt" />
+    <Text Include="Files\InputFiles\159.txt" />
+    <Text Include="Files\InputFiles\16.txt" />
+    <Text Include="Files\InputFiles\160.txt" />
+    <Text Include="Files\InputFiles\161.txt" />
+    <Text Include="Files\InputFiles\162.txt" />
+    <Text Include="Files\InputFiles\163.txt" />
+    <Text Include="Files\InputFiles\164.txt" />
+    <Text Include="Files\InputFiles\165.txt" />
+    <Text Include="Files\InputFiles\166.txt" />
+    <Text Include="Files\InputFiles\167.txt" />
+    <Text Include="Files\InputFiles\168.txt" />
+    <Text Include="Files\InputFiles\169.txt" />
+    <Text Include="Files\InputFiles\17.txt" />
+    <Text Include="Files\InputFiles\170.txt" />
+    <Text Include="Files\InputFiles\171.txt" />
+    <Text Include="Files\InputFiles\172.txt" />
+    <Text Include="Files\InputFiles\173.txt" />
+    <Text Include="Files\InputFiles\174.txt" />
+    <Text Include="Files\InputFiles\175.txt" />
+    <Text Include="Files\InputFiles\176.txt" />
+    <Text Include="Files\InputFiles\177.txt" />
+    <Text Include="Files\InputFiles\178.txt" />
+    <Text Include="Files\InputFiles\179.txt" />
+    <Text Include="Files\InputFiles\18.txt" />
+    <Text Include="Files\InputFiles\180.txt" />
+    <Text Include="Files\InputFiles\181.txt" />
+    <Text Include="Files\InputFiles\182.txt" />
+    <Text Include="Files\InputFiles\183.txt" />
+    <Text Include="Files\InputFiles\184.txt" />
+    <Text Include="Files\InputFiles\185.txt" />
+    <Text Include="Files\InputFiles\186.txt" />
+    <Text Include="Files\InputFiles\187.txt" />
+    <Text Include="Files\InputFiles\188.txt" />
+    <Text Include="Files\InputFiles\189.txt" />
+    <Text Include="Files\InputFiles\19.txt" />
+    <Text Include="Files\InputFiles\190.txt" />
+    <Text Include="Files\InputFiles\191.txt" />
+    <Text Include="Files\InputFiles\192.txt" />
+    <Text Include="Files\InputFiles\193.txt" />
+    <Text Include="Files\InputFiles\194.txt" />
+    <Text Include="Files\InputFiles\195.txt" />
+    <Text Include="Files\InputFiles\196.txt" />
+    <Text Include="Files\InputFiles\197.txt" />
+    <Text Include="Files\InputFiles\198.txt" />
+    <Text Include="Files\InputFiles\199.txt" />
+    <Text Include="Files\InputFiles\2.txt" />
+    <Text Include="Files\InputFiles\20.txt" />
+    <Text Include="Files\InputFiles\200.txt" />
+    <Text Include="Files\InputFiles\201.txt" />
+    <Text Include="Files\InputFiles\202.txt" />
+    <Text Include="Files\InputFiles\203.txt" />
+    <Text Include="Files\InputFiles\204.txt" />
+    <Text Include="Files\InputFiles\205.txt" />
+    <Text Include="Files\InputFiles\206.txt" />
+    <Text Include="Files\InputFiles\207.txt" />
+    <Text Include="Files\InputFiles\208.txt" />
+    <Text Include="Files\InputFiles\209.txt" />
+    <Text Include="Files\InputFiles\21.txt" />
+    <Text Include="Files\InputFiles\210.txt" />
+    <Text Include="Files\InputFiles\211.txt" />
+    <Text Include="Files\InputFiles\212.txt" />
+    <Text Include="Files\InputFiles\213.txt" />
+    <Text Include="Files\InputFiles\214.txt" />
+    <Text Include="Files\InputFiles\215.txt" />
+    <Text Include="Files\InputFiles\216.txt" />
+    <Text Include="Files\InputFiles\217.txt" />
+    <Text Include="Files\InputFiles\218.txt" />
+    <Text Include="Files\InputFiles\219.txt" />
+    <Text Include="Files\InputFiles\22.txt" />
+    <Text Include="Files\InputFiles\220.txt" />
+    <Text Include="Files\InputFiles\221.txt" />
+    <Text Include="Files\InputFiles\222.txt" />
+    <Text Include="Files\InputFiles\223.txt" />
+    <Text Include="Files\InputFiles\224.txt" />
+    <Text Include="Files\InputFiles\225.txt" />
+    <Text Include="Files\InputFiles\226.txt" />
+    <Text Include="Files\InputFiles\227.txt" />
+    <Text Include="Files\InputFiles\228.txt" />
+    <Text Include="Files\InputFiles\229.txt" />
+    <Text Include="Files\InputFiles\23.txt" />
+    <Text Include="Files\InputFiles\230.txt" />
+    <Text Include="Files\InputFiles\231.txt" />
+    <Text Include="Files\InputFiles\232.txt" />
+    <Text Include="Files\InputFiles\233.txt" />
+    <Text Include="Files\InputFiles\234.txt" />
+    <Text Include="Files\InputFiles\235.txt" />
+    <Text Include="Files\InputFiles\236.txt" />
+    <Text Include="Files\InputFiles\237.txt" />
+    <Text Include="Files\InputFiles\238.txt" />
+    <Text Include="Files\InputFiles\239.txt" />
+    <Text Include="Files\InputFiles\24.txt" />
+    <Text Include="Files\InputFiles\240.txt" />
+    <Text Include="Files\InputFiles\241.txt" />
+    <Text Include="Files\InputFiles\242.txt" />
+    <Text Include="Files\InputFiles\243.txt" />
+    <Text Include="Files\InputFiles\244.txt" />
+    <Text Include="Files\InputFiles\245.txt" />
+    <Text Include="Files\InputFiles\246.txt" />
+    <Text Include="Files\InputFiles\247.txt" />
+    <Text Include="Files\InputFiles\248.txt" />
+    <Text Include="Files\InputFiles\249.txt" />
+    <Text Include="Files\InputFiles\25.txt" />
+    <Text Include="Files\InputFiles\250.txt" />
+    <Text Include="Files\InputFiles\251.txt" />
+    <Text Include="Files\InputFiles\252.txt" />
+    <Text Include="Files\InputFiles\253.txt" />
+    <Text Include="Files\InputFiles\254.txt" />
+    <Text Include="Files\InputFiles\255.txt" />
+    <Text Include="Files\InputFiles\256.txt" />
+    <Text Include="Files\InputFiles\257.txt" />
+    <Text Include="Files\InputFiles\258.txt" />
+    <Text Include="Files\InputFiles\259.txt" />
+    <Text Include="Files\InputFiles\26.txt" />
+    <Text Include="Files\InputFiles\260.txt" />
+    <Text Include="Files\InputFiles\261.txt" />
+    <Text Include="Files\InputFiles\262.txt" />
+    <Text Include="Files\InputFiles\263.txt" />
+    <Text Include="Files\InputFiles\264.txt" />
+    <Text Include="Files\InputFiles\265.txt" />
+    <Text Include="Files\InputFiles\266.txt" />
+    <Text Include="Files\InputFiles\267.txt" />
+    <Text Include="Files\InputFiles\268.txt" />
+    <Text Include="Files\InputFiles\269.txt" />
+    <Text Include="Files\InputFiles\27.txt" />
+    <Text Include="Files\InputFiles\270.txt" />
+    <Text Include="Files\InputFiles\271.txt" />
+    <Text Include="Files\InputFiles\272.txt" />
+    <Text Include="Files\InputFiles\273.txt" />
+    <Text Include="Files\InputFiles\274.txt" />
+    <Text Include="Files\InputFiles\275.txt" />
+    <Text Include="Files\InputFiles\276.txt" />
+    <Text Include="Files\InputFiles\277.txt" />
+    <Text Include="Files\InputFiles\278.txt" />
+    <Text Include="Files\InputFiles\279.txt" />
+    <Text Include="Files\InputFiles\28.txt" />
+    <Text Include="Files\InputFiles\280.txt" />
+    <Text Include="Files\InputFiles\281.txt" />
+    <Text Include="Files\InputFiles\282.txt" />
+    <Text Include="Files\InputFiles\283.txt" />
+    <Text Include="Files\InputFiles\284.txt" />
+    <Text Include="Files\InputFiles\285.txt" />
+    <Text Include="Files\InputFiles\286.txt" />
+    <Text Include="Files\InputFiles\287.txt" />
+    <Text Include="Files\InputFiles\288.txt" />
+    <Text Include="Files\InputFiles\289.txt" />
+    <Text Include="Files\InputFiles\29.txt" />
+    <Text Include="Files\InputFiles\290.txt" />
+    <Text Include="Files\InputFiles\291.txt" />
+    <Text Include="Files\InputFiles\292.txt" />
+    <Text Include="Files\InputFiles\293.txt" />
+    <Text Include="Files\InputFiles\294.txt" />
+    <Text Include="Files\InputFiles\295.txt" />
+    <Text Include="Files\InputFiles\296.txt" />
+    <Text Include="Files\InputFiles\297.txt" />
+    <Text Include="Files\InputFiles\298.txt" />
+    <Text Include="Files\InputFiles\299.txt" />
+    <Text Include="Files\InputFiles\3.txt" />
+    <Text Include="Files\InputFiles\30.txt" />
+    <Text Include="Files\InputFiles\300.txt" />
+    <Text Include="Files\InputFiles\301.txt" />
+    <Text Include="Files\InputFiles\302.txt" />
+    <Text Include="Files\InputFiles\303.txt" />
+    <Text Include="Files\InputFiles\304.txt" />
+    <Text Include="Files\InputFiles\305.txt" />
+    <Text Include="Files\InputFiles\306.txt" />
+    <Text Include="Files\InputFiles\307.txt" />
+    <Text Include="Files\InputFiles\308.txt" />
+    <Text Include="Files\InputFiles\309.txt" />
+    <Text Include="Files\InputFiles\31.txt" />
+    <Text Include="Files\InputFiles\310.txt" />
+    <Text Include="Files\InputFiles\311.txt" />
+    <Text Include="Files\InputFiles\312.txt" />
+    <Text Include="Files\InputFiles\313.txt" />
+    <Text Include="Files\InputFiles\314.txt" />
+    <Text Include="Files\InputFiles\315.txt" />
+    <Text Include="Files\InputFiles\316.txt" />
+    <Text Include="Files\InputFiles\317.txt" />
+    <Text Include="Files\InputFiles\318.txt" />
+    <Text Include="Files\InputFiles\319.txt" />
+    <Text Include="Files\InputFiles\32.txt" />
+    <Text Include="Files\InputFiles\320.txt" />
+    <Text Include="Files\InputFiles\321.txt" />
+    <Text Include="Files\InputFiles\322.txt" />
+    <Text Include="Files\InputFiles\323.txt" />
+    <Text Include="Files\InputFiles\324.txt" />
+    <Text Include="Files\InputFiles\325.txt" />
+    <Text Include="Files\InputFiles\326.txt" />
+    <Text Include="Files\InputFiles\327.txt" />
+    <Text Include="Files\InputFiles\328.txt" />
+    <Text Include="Files\InputFiles\329.txt" />
+    <Text Include="Files\InputFiles\33.txt" />
+    <Text Include="Files\InputFiles\330.txt" />
+    <Text Include="Files\InputFiles\331.txt" />
+    <Text Include="Files\InputFiles\332.txt" />
+    <Text Include="Files\InputFiles\333.txt" />
+    <Text Include="Files\InputFiles\334.txt" />
+    <Text Include="Files\InputFiles\335.txt" />
+    <Text Include="Files\InputFiles\336.txt" />
+    <Text Include="Files\InputFiles\337.txt" />
+    <Text Include="Files\InputFiles\338.txt" />
+    <Text Include="Files\InputFiles\339.txt" />
+    <Text Include="Files\InputFiles\34.txt" />
+    <Text Include="Files\InputFiles\340.txt" />
+    <Text Include="Files\InputFiles\341.txt" />
+    <Text Include="Files\InputFiles\342.txt" />
+    <Text Include="Files\InputFiles\343.txt" />
+    <Text Include="Files\InputFiles\344.txt" />
+    <Text Include="Files\InputFiles\345.txt" />
+    <Text Include="Files\InputFiles\346.txt" />
+    <Text Include="Files\InputFiles\347.txt" />
+    <Text Include="Files\InputFiles\348.txt" />
+    <Text Include="Files\InputFiles\349.txt" />
+    <Text Include="Files\InputFiles\35.txt" />
+    <Text Include="Files\InputFiles\350.txt" />
+    <Text Include="Files\InputFiles\351.txt" />
+    <Text Include="Files\InputFiles\352.txt" />
+    <Text Include="Files\InputFiles\353.txt" />
+    <Text Include="Files\InputFiles\354.txt" />
+    <Text Include="Files\InputFiles\36.txt" />
+    <Text Include="Files\InputFiles\37.txt" />
+    <Text Include="Files\InputFiles\38.txt" />
+    <Text Include="Files\InputFiles\39.txt" />
+    <Text Include="Files\InputFiles\4.txt" />
+    <Text Include="Files\InputFiles\40.txt" />
+    <Text Include="Files\InputFiles\41.txt" />
+    <Text Include="Files\InputFiles\42.txt" />
+    <Text Include="Files\InputFiles\43.txt" />
+    <Text Include="Files\InputFiles\44.txt" />
+    <Text Include="Files\InputFiles\45.txt" />
+    <Text Include="Files\InputFiles\46.txt" />
+    <Text Include="Files\InputFiles\47.txt" />
+    <Text Include="Files\InputFiles\48.txt" />
+    <Text Include="Files\InputFiles\49.txt" />
+    <Text Include="Files\InputFiles\5.txt" />
+    <Text Include="Files\InputFiles\50.txt" />
+    <Text Include="Files\InputFiles\51.txt" />
+    <Text Include="Files\InputFiles\52.txt" />
+    <Text Include="Files\InputFiles\53.txt" />
+    <Text Include="Files\InputFiles\54.txt" />
+    <Text Include="Files\InputFiles\55.txt" />
+    <Text Include="Files\InputFiles\56.txt" />
+    <Text Include="Files\InputFiles\57.txt" />
+    <Text Include="Files\InputFiles\58.txt" />
+    <Text Include="Files\InputFiles\59.txt" />
+    <Text Include="Files\InputFiles\6.txt" />
+    <Text Include="Files\InputFiles\60.txt" />
+    <Text Include="Files\InputFiles\61.txt" />
+    <Text Include="Files\InputFiles\62.txt" />
+    <Text Include="Files\InputFiles\63.txt" />
+    <Text Include="Files\InputFiles\64.txt" />
+    <Text Include="Files\InputFiles\65.txt" />
+    <Text Include="Files\InputFiles\66.txt" />
+    <Text Include="Files\InputFiles\67.txt" />
+    <Text Include="Files\InputFiles\68.txt" />
+    <Text Include="Files\InputFiles\69.txt" />
+    <Text Include="Files\InputFiles\7.txt" />
+    <Text Include="Files\InputFiles\70.txt" />
+    <Text Include="Files\InputFiles\71.txt" />
+    <Text Include="Files\InputFiles\72.txt" />
+    <Text Include="Files\InputFiles\73.txt" />
+    <Text Include="Files\InputFiles\74.txt" />
+    <Text Include="Files\InputFiles\75.txt" />
+    <Text Include="Files\InputFiles\76.txt" />
+    <Text Include="Files\InputFiles\77.txt" />
+    <Text Include="Files\InputFiles\78.txt" />
+    <Text Include="Files\InputFiles\79.txt" />
+    <Text Include="Files\InputFiles\8.txt" />
+    <Text Include="Files\InputFiles\80.txt" />
+    <Text Include="Files\InputFiles\81.txt" />
+    <Text Include="Files\InputFiles\82.txt" />
+    <Text Include="Files\InputFiles\83.txt" />
+    <Text Include="Files\InputFiles\84.txt" />
+    <Text Include="Files\InputFiles\85.txt" />
+    <Text Include="Files\InputFiles\86.txt" />
+    <Text Include="Files\InputFiles\87.txt" />
+    <Text Include="Files\InputFiles\88.txt" />
+    <Text Include="Files\InputFiles\89.txt" />
+    <Text Include="Files\InputFiles\9.txt" />
+    <Text Include="Files\InputFiles\90.txt" />
+    <Text Include="Files\InputFiles\91.txt" />
+    <Text Include="Files\InputFiles\92.txt" />
+    <Text Include="Files\InputFiles\93.txt" />
+    <Text Include="Files\InputFiles\94.txt" />
+    <Text Include="Files\InputFiles\95.txt" />
+    <Text Include="Files\InputFiles\96.txt" />
+    <Text Include="Files\InputFiles\97.txt" />
+    <Text Include="Files\InputFiles\98.txt" />
+    <Text Include="Files\InputFiles\99.txt" />
+    <Text Include="Files\ReadMe.txt" />
+    <Text Include="Files\TODO.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
